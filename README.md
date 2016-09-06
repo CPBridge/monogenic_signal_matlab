@@ -2,7 +2,7 @@
 
 This repository contains MATLAB code to calculate the monogenic signal (Felsberg and Sommer) for 2D and 3D images, as well as many quantities that can be derived from the monogenic signal such as Feature Symmetry and Asymmetry, and Phase Congruency.
 
-The monogenic signal is an alternative way of representing an image, which has a number of advantages for further processing. For an introduction to the monogenic signal and derived features with references to the relevant scientific literature, please see [this document](https://chrispbridge.files.wordpress.com/2016/05/monogenic.pdf) (PDF).
+The monogenic signal is an alternative way of representing an image, which has a number of advantages for further processing. For an introduction to the monogenic signal and derived features with references to the relevant scientific literature, please see [this document](https://chrispbridge.files.wordpress.com/2016/05/monogenic2.pdf) (PDF).
 
 ### Capabilities
 
@@ -29,3 +29,9 @@ This software was written by Christopher Bridge (University of Oxford) and was b
 
 ### Licence
 This software is licensed under the GNU Public Licence (GPL). You are free to edit and distribute this code providing certain conditions are met. Read the full licence for further information.
+
+### Publications
+
+This code has been used in the following publication:
+
+* C.P. Bridge and J.A. Noble, “[Object Localisation in Fetal Ultrasound Images Using Invariant Features](http://ieeexplore.ieee.org/document/7163839/)”. Proceedings of IEEE International Symposium on Biomedical Imaging, New York City, 2015
