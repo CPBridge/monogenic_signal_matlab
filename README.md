@@ -2,7 +2,7 @@
 
 This repository contains MATLAB code to calculate the monogenic signal (Felsberg and Sommer) for 2D and 3D images, as well as many quantities that can be derived from the monogenic signal such as Feature Symmetry and Asymmetry, and Phase Congruency.
 
-The monogenic signal is an alternative way of representing an image, which has a number of advantages for further processing. For an introduction to the monogenic signal and derived features with references to the relevant scientific literature, please see [this document](https://chrispbridge.files.wordpress.com/2016/05/monogenic2.pdf) (PDF).
+The monogenic signal is an alternative way of representing an image, which has a number of advantages for further processing. For an introduction to the monogenic signal and derived features with references to the relevant scientific literature, please see [this document](https://chrispbridge.files.wordpress.com/2016/05/monogenic3.pdf) (PDF).
 
 ### Capabilities
 
