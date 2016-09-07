@@ -22,7 +22,7 @@ Read through and run the heavily-commented example files (example2D.m and exampl
 MATLAB or GNU Octave (all versions on all operating systems should work as far as I am aware).
 
 ### Installation
-You should not need to do anything to install except ensure that the directory containing the source files are in your MATLAB/Octave path whenever you want to use the it.
+You should not need to do anything to install except ensure that the 'src' subdirectory (containing the source files) is added to your MATLAB/Octave path whenever you want to the functions.
 
 ### Contributors
 This software was written by Christopher Bridge (University of Oxford) and was based on previous code by Ana Namburete and Vicente Grau.
