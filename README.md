@@ -9,10 +9,10 @@ The monogenic signal is an alternative way of representing an image, which has a
 Functions are provided to calculate the following quantities for 2D and 3D images:
 
 * Monogenic Signal
-* Local Energy, Local Phase and Local Orientation to describe the local properties of image
-* Feature Symmetry and Asymmetry, respond to symmetric 'blobs' and boundaries with robustness to variable contrast
-* Oriented Feature Symmetry and Asymmetry, as above but also containing the polarity of the symmetry and the orientation of the boundaries
-* Phase Congruency, responds to edges in the image
+* Local Energy, Local Phase and Local Orientation to describe the local properties of image.
+* Feature Symmetry and Asymmetry, respond to symmetric 'blobs' and boundaries with robustness to variable contrast.
+* Oriented Feature Symmetry and Asymmetry, as above but also containing the polarity of the symmetry and the orientation of the boundaries.
+* Phase Congruency, responds to edges in the image.
 
 ### Instructions For Use
 
@@ -22,7 +22,7 @@ Read through and run the heavily-commented example files (example2D.m and exampl
 MATLAB or GNU Octave (all versions on all operating systems should work as far as I am aware).
 
 ### Installation
-You should not need to do anything to install except ensure that the directory containing the source files are in your MATLAB/Octave path whenever you want to use the it.
+You should not need to do anything to install except ensure that the 'src' subdirectory (containing the source files) is added to your MATLAB/Octave path whenever you want to use the functions.
 
 ### Contributors
 This software was written by Christopher Bridge (University of Oxford) and was based on previous code by Ana Namburete and Vicente Grau.
