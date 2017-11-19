@@ -25,7 +25,7 @@ MATLAB or GNU Octave (all versions on all operating systems should work as far a
 You should not need to do anything to install except ensure that the 'src' subdirectory (containing the source files) is added to your MATLAB/Octave path whenever you want to use the functions.
 
 ### Contributors
-This software was written by Christopher Bridge (University of Oxford) and was based on previous code by Ana Namburete and Vicente Grau.
+This software was written by [Christopher Bridge](https://chrisbridge.science/) (University of Oxford) and was based on previous code by Ana Namburete and Vicente Grau.
 
 ### Licence
 This software is licensed under the GNU Public Licence (GPL). You are free to edit and distribute this code providing certain conditions are met. Read the full licence for further information.
