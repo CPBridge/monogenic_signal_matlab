@@ -1,4 +1,4 @@
-function filtStruct = createMonogenicFilters3D(ysize,xsize,zsize,wl_xy,wl_z,filtType, parameter)
+function filtStruct = createMonogenicFilters3D(ysize,xsize,zsize,wl_xy,wl_z,filtType,parameter)
 %
 %   filtStruct = createMonogenicFilters3D(ysize, xsize, zsize , wl_xy, wl_z, filtType = 'lg', parameter)
 %
@@ -15,7 +15,7 @@ function filtStruct = createMonogenicFilters3D(ysize,xsize,zsize,wl_xy,wl_z,filt
 %                           'lg'    - Log-Gabor radial filter
 %                           'gabor' - Gabor radial filter
 %                           'gd'    - Gaussian derivative
-%                           'cau'   - Cauer (elliptic) filter
+%                           'cau'   - Cauchy
 %                           'dop'   - difference of Poisson filter
 %                 parameter - The shape parameters for 'lg' and 'dop' type
 %                             filters

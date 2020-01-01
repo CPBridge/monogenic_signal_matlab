@@ -1,4 +1,4 @@
-function filtStruct = createMonogenicFilters(ysize,xsize,wl,filtType, parameter)
+function filtStruct = createMonogenicFilters(ysize,xsize,wl,filtType,parameter)
 %
 %   filtStruct = createMonogenicFilters(ysize,xsize,wl, filtType = 'lg', parameter)
 %
@@ -12,7 +12,7 @@ function filtStruct = createMonogenicFilters(ysize,xsize,wl,filtType, parameter)
 %                               'lg'    - Log-Gabor radial filter
 %                               'gabor' - Gabor radial filter
 %                               'gd'    - Gaussian derivative filter
-%                               'cau'   - Cauer (elliptic) filter
+%                               'cau'   - Cauchy
 %                               'dop'   - Difference of Poisson filter
 %                parameter    - The shape parameters for 'lg' and 'dop'
 %                               type filters
@@ -83,7 +83,7 @@ for flt = 1:numFilt
     elseif strcmp(filtType, 'gd')
         bpFilt(:,:,1,flt) = w .* exp(-(w.^2)*(wl(flt)^2));                          % isotropic gaussian derivative filter; wl is used for sigma
     elseif strcmp(filtType, 'cau')
-        bpFilt(:,:,1,flt) = w .* exp(-(w)*(wl(flt)));                               % cauer filter, wl is used for sigma
+        bpFilt(:,:,1,flt) = w .* exp(-(w)*(wl(flt)));                               % cauchy filter, wl is used for sigma
     elseif strcmp(filtType, 'dop')
         s2 = wl(flt)/((ratio-1))*log(ratio);                                   % difference of Poisson filters
         s1 = ratio*s2;
